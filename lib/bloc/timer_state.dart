@@ -31,7 +31,7 @@ class Running extends TimerState {
 }
 
 class Finished extends TimerState {
-  Finished(int duration) : super(duration);
+  Finished() : super(0);
 
   @override
   String toString() => 'Finished';
